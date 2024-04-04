@@ -3,7 +3,7 @@
 
 run "variables" {
   assert {
-    condition     = var.bucket_name == "test-bucket"
+    condition     = var.bucket_name == "justintabbert-test-bucket"
     error_message = "Bucket name variable does not match the expected value."
   }
 
